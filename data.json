@@ -168,7 +168,7 @@
         "usage": 1970
     },
     "KSG": {
-        "image": "https://i.imgur.com/klsWlNG.png",
+        "image": "https://i.imgur.com/ejj1y8N.png",
         "hint": "The {{KSG}} is a bullpup 12-gauge pump-action shotgun designed by Kel-Tec. It has two tube magazines which the user of the gun can switch between manually. Each tube holds up to seven 2.75-inch (70 mm) 12-gauge shotshells or six 3-inch (76 mm) shotshells.",
         "origin": "United States",
         "gunType": "Pump-action shotgun",
@@ -371,7 +371,7 @@
         "usage": 1984
     },
     "UMP": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050808147931041792/UMP.png",
+        "image": "https://i.imgur.com/klsWlNG.png",
         "hint": "The {{HK UMP}} is a submachine gun developed and manufactured by Heckler & Koch. Heckler & Koch developed the {{UMP}} as a lighter and cheaper successor to the MP5, though both remain in production.",
         "origin": "Germany",
         "gunType": "Submachine Gun",
