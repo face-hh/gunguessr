@@ -1,0 +1,7 @@
+{
+    "Phantom Forces": ["AK-47", "AUG-A1", "TYPE-20", "AWM", "GLOCK-19", "HK416", "M4A1", "M16A3", "MP5", "Honey Badger", "AK-74", "AK-12", "AS Val", "FAMAS", "G36", "GROZA", "M1903", "FAL", "HK417", "M14", "Dragunov SVU", "WA2000", "KSG", "Remington Model 870", "Aug HBAR", "SKS", "Thompson", "KRISS Vector", "UZI", "RPK", "MAC-10", "PP-2000", "Skorpion 61", "Desert Eagle", "Saiga-12", "SPAS-12", "KS-23", "USAS-12", "AA-12", "M200 Intervention", "NTW-20", "Mosin Nagant", "Remington Model 700", "Steyr Scout", "ASMI", "MP7", "MP40", "PP-19 Bizon", "C7A2", "UMP", "L2A3", "SL8", "Colt LMG", "HECATE II", "PPSh-41", "Type 63", "Makarov PM", "AKM"],
+    "COD Warzone": ["AK-47", "AUG-A1", "M4A1", "MP5", "TEC-9", "AK-74", "AS Val", "FAMAS", "GROZA", "FAL", "Dragunov SVU", "SKS", "UZI", "MAC-10", "MP7", "MP40", "PP-19 Bizon", "PPSh-41"],
+    "CS:GO": ["TEC-9", "MP7", "MAC-10", "PP-19 Bizon", "M4A1", "FAMAS", "AK-47", "AUG-A1", "Desert Eagle", "UMP", "P2000"],
+    "Cold War": ["AK-47", "AK-74", "RPK", "Skorpion 61", "SKS", "UZI", "M14", "AKM"],
+    "Heckler & Koch": ["HK416", "HK417", "MP5", "G36", "XM8", "MP7", "UMP", "SL8", "P2000"]
+}
