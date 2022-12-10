@@ -16,6 +16,9 @@ It started as an idea for a terminal game, but we were limited by the customizat
 
 ![image](https://user-images.githubusercontent.com/69168154/206849309-a359da56-cc58-44d3-bdf2-8bde63edc921.png)
 
+# Known bugs
+- Disproportions of loading screen text
+
 # Contribution
 We are open to contribution, as this is a OSS project.
 

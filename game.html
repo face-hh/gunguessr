@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gunguessr</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+    <div id="loadingScreen">
+        <img id="loadingImage" src="https://cdn.discordapp.com/emojis/888891964286709760.gif?size=96">
+        <h1 id="textOfLoading">We're loading the assets, sir.</h1>
+        <h1 id="progressOfLoading">0</h1>
+    </div>
+    <img src="logo.png" alt="Logo" class="center">
+    <div style="padding: 20px;"></div>
+
+    <div class="container">
+        <img id="ascii" class="image">
+        <div>
+            <h1 id="hint" class="text"></h1>
+            <h1 id="origin" class="text"></h1>
+            <h1 id="usage" class="text"></h1>
+            <h1 id="gunType" class="text"></h1>
+        </div>
+    </div>
+    <div style="padding: 10px"></div>
+
+    <div class="gun">
+        <input type="text" id="inputt" name="gun" placeholder="Gun...">
+    </div>
+
+    <div class="counter"></div>
+
+    <div id="centerM">
+        <div class="progress">
+            <div id="progress-value">
+                <h1 id="progressText">5000</h1>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="winmsg"></h1>
+    <h1 id="time" style="font-size: 40px"></h1>
+    <h1 id="skip" style="color:gray; font-size: 30px"></h1>
+
+
+    <div class="centerBtn">
+        <div class="centerBtn" style="text-align: center;">
+            <button onclick="growDiv()" class="button-5">Settings</button>
+        </div>
+        <div id='grow'>
+            <div class='measuringWrapper'>
+                <div style="padding: 10px"></div>
+                <h1 class="settingsText">Choose your settings.</h1>
+                <div class="centerBtn">
+                    <label class="switch">
+                        <input type="checkbox" onclick="setting('hints')">
+                        <span class="slider"></span>
+                    </label>
+                    <span id="settingHint">Hints</span>
+                    <br>
+                    <label class="switch">
+                        <input type="checkbox" onclick="setting('origin')">
+                        <span class="slider"></span>
+                    </label>
+                    <span id="settingHint">Origin</span>
+                    <br>
+                    <label class="switch">
+                        <input type="checkbox" onclick="setting('usage')">
+                        <span class="slider"></span>
+                    </label>
+                    <span id="settingHint">Usage</span>
+                    <br>
+                    <label class="switch">
+                        <input type="checkbox" onclick="setting('gunType')">
+                        <span class="slider"></span>
+                    </label>
+                    <span id="settingHint">Type</span>
+                </div>
+                <div style="display: flex; justify-content: center; padding: 50px">
+                    <select name="field2" id="field2" multiple multiselect-search="true" multiselect-select-all="true"
+                        multiselect-max-items="3" onchange="filter(this)">
+                        <option>Phantom Forces</option>
+                        <option>COD Warzone</option>
+                        <option>CS:GO</option>
+                        <option>Cold War</option>
+                        <option>Heckler & Koch</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- <footer>
+        <p><a href="#">How does it works?</a> &bull; <a href="#">Source code (GitHub)</a></p>
+    </footer> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/game.js"></script>
+
+    <script>
+        let shown = true;
+        let doc = document.getElementById('grow')
+        function growDiv() {
+            if(shown) {
+                doc.style.animation = 'createBox 1s'
+                doc.style.display = 'block'
+                shown = false;
+                $('html,body').animate({ scrollTop: document.body.scrollHeight }, "slow");
+            } else {
+                doc.style.animation = 'destroyBox 1s'
+                setTimeout(() => { doc.style.display = 'none'}, 900)
+                shown = true
+            }
+        }
+        function waitForElm(selector) {
+            return new Promise(resolve => {
+                if (document.querySelector(selector)) {
+                    return resolve(document.querySelector(selector));
+                }
+
+                const observer = new MutationObserver(mutations => {
+                    if (document.querySelector(selector)) {
+                        resolve(document.querySelector(selector));
+                        observer.disconnect();
+                    }
+                });
+
+                observer.observe(document.body, {
+                    childList: true,
+                    subtree: true
+                });
+            });
+        }
+
+        waitForElm('#all-tag').then(() => {
+            document.getElementById("all-tag").click()
+        })
+    </script>
+</body>
+
+</html>

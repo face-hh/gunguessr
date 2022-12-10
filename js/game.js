@@ -12,11 +12,14 @@ const origin = document.getElementById('origin');
 const usage = document.getElementById('usage');
 const gunType = document.getElementById('gunType');
 const progressText = document.getElementById('progressText');
+const progressOfLoading = document.getElementById('progressOfLoading');
+const loadingScreen = document.getElementById('loadingScreen');
 const center = document.getElementById('centerM');
 
 const winmsg = document.getElementById('winmsg');
 const countdown = document.getElementById('time');
 const text = document.getElementById('skip');
+const asciiImage = document.getElementById('ascii');
 
 let guess;
 let rGun;
@@ -39,20 +42,28 @@ function generateData(rGun) {
 	settings.usage ? usage.innerHTML = rGun.usage : usage.innerHTML = 'Hidden;';
 	settings.gunType ? gunType.innerHTML = rGun.gunType : gunType.innerHTML = 'Hidden;';
 }
+
 (async () => {
 	window.onkeyup = keyup;
 
 	guns = await (await fetch('data.json')).json();
 	baseGuns = guns;
-
 	filterArray = await (await fetch('filter.json')).json();
+	gunsByValues = Object.values(guns);
 
-	const asciiImage = document.getElementById('ascii');
+	async function loadImages() {
+		for (let i = 0; i < gunsByValues.length; i++) {
+			await $.ajax({ url: gunsByValues[i].image });
+			progressOfLoading.innerHTML = `<span style="color: #efdaf2">${(i + 1)}</span>/<span style="color: #e486f2">${gunsByValues.length}`;
 
+			if (i + 1 === gunsByValues.length) {
+				loadingScreen.style.display = 'none';
+			}
+		}
+	}
+	await loadImages();
 	rGun = generateGun();
-
 	asciiImage.src = rGun.image;
-
 	generateData(rGun);
 
 	date = Date.now();

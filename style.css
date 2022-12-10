@@ -5,6 +5,33 @@
     --percent: 0%;
 }
 
+#loadingScreen {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999999;
+    background: linear-gradient(92deg, rgb(248 248 248) 0%, rgb(0 0 0) 0%, rgb(31 27 41) 100%);
+}
+
+#loadingImage {
+    position: absolute;
+    top: calc(50vh - 210px);
+    left: calc(50vw - 75px);
+}
+
+#progressOfLoading {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+#textOfLoading {
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    top: 340px;
+    left: 718px;
+}
+
 #centerM {
     justify-content: center;
     align-items: center;
@@ -12,7 +39,8 @@
     display: none;
 }
 
-#progressText {
+#progressText,
+#progressText2 {
     position: relative;
     top: -18px;
     color: #2d2d2d;
@@ -31,7 +59,8 @@
     width: 500px;
 }
 
-#progress-value {
+#progress-value,
+#progress-value2 {
     animation: load 2s normal forwards;
     box-shadow: 0 10px 40px -10px #000;
     border-radius: 100px;
@@ -297,7 +326,7 @@ input:checked+.slider {
 }
 
 #grow {
-    height:0;
+    height: 0;
     display: none
 }
 
@@ -324,8 +353,9 @@ label {
 }
 
 .multiselect-dropdown {
-    width:300px;
+    width: 300px;
 }
+
 #winmsg {
     font-size: 40px;
 }
@@ -428,12 +458,63 @@ label {
     .multiselect-dropdown {
         width: 71px !important;
     }
-}
 
-@media screen and (max-width: 900px) {
+    #loadingScreen {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 999999;
+        background: linear-gradient(92deg, rgb(248 248 248) 0%, rgb(0 0 0) 0%, rgb(31 27 41) 100%);
+    }
+
+    #loadingImage {
+        position: absolute;
+        top: calc(50vh - 210px);
+        left: calc(50vw - 75px);
+    }
+
+    #progressOfLoading {
+        position: absolute;
+        top: 328px;
+        left: 136px
+    }
+
+    #textOfLoading {
+        font-family: 'Rubik', sans-serif;
+        position: absolute;
+        top: 293px;
+        left: 42px;
+        font-size: 20px;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
     #settingHint {
         top: -21px;
         left: 128px;
         position: relative;
+    }
+
+    #loadingImage {
+        position: absolute;
+        top: calc(50vh - 210px);
+        left: calc(50vw - 75px);
+    }
+
+    #progressOfLoading {
+        position: absolute;
+        top: 525px;
+        left: 347px;
+    }
+
+    #textOfLoading {
+        font-family: 'Rubik', sans-serif;
+        position: absolute;
+        top: 469px;
+        left: 165px;
     }
 }
