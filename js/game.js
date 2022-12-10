@@ -53,7 +53,7 @@ function generateData(rGun) {
 
 	async function loadImages() {
 		for (let i = 0; i < gunsByValues.length; i++) {
-			await $.ajax({ url: gunsByValues[i].image });
+			await $.ajax({ 'url': gunsByValues[i].image });
 			progressOfLoading.innerHTML = `<span style="color: #efdaf2">${(i + 1)}</span>/<span style="color: #e486f2">${gunsByValues.length}`;
 
 			if (i + 1 === gunsByValues.length) {

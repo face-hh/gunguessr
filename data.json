@@ -1,370 +1,370 @@
 {
     "AK-47": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042865990658179233/AK-47.png",
+        "image": "https://i.imgur.com/m52nlUu.png",
         "hint": "The {{AK-47}}, is a gas-operated assault rifle that is chambered for the 7.62×39mm cartridge. Developed in the Soviet Union by Russian small-arms designer Mikhail Kalashnikov, it is the originating firearm of the Kalashnikov (or \"AK\") family of rifles.",
         "origin": "Soviet Union",
         "gunType": "Assault Rifle",
         "usage": 1949
     },
     "AUG-A1": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042865991098576907/AUG-A1.png",
+        "image": "https://i.imgur.com/r6tl7h2.png",
         "hint": "The {{Steyr AUG}} is an Austrian bullpup assault rifle chambered for the 5.56×45mm NATO intermediate cartridge, designed by Steyr-Daimler-Puch, and now manufactured by Steyr Arms GmbH & Co KG.",
         "origin": "Austria",
         "gunType": "Assault Rifle",
         "usage": 1978
     },
     "AWM": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042865991434129559/AWM.png",
+        "image": "https://i.imgur.com/JM6j5jd.png",
         "hint": "The {{AWM}} {{(Arctic Warfare Magnum)}} is a bolt-Bolt-action sniper rifle manufactured by Accuracy International designed for magnum rifle cartridges. The {{AWM}} is also unofficially known as the {{AWSM}} {{(Arctic Warfare Super Magnum)}}, which typically denotes AWM rifles chambered in .338 Lapua Magnum.",
         "origin": "United Kingdom",
         "gunType": "Bolt-action sniper rifle",
         "usage": 1996
     },
     "GLOCK-19": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042865991824195775/GLOCK-19.png",
+        "image": "https://i.imgur.com/uuX737R.png",
         "hint": "{{Glock}} is a brand of polymer-framed, short recoil-operated, locked-breech semi-automatic pistols designed and produced by Austrian manufacturer {{Glock}} Ges.m.b.H. The firearm entered Austrian military and police service by 1982 after it was the top performer in reliability and safety tests.",
         "origin": "Austria",
         "gunType": "Semi-Auto Pistol",
         "usage": 1982
     },
     "HK416": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042865992210075748/HK416.png",
+        "image": "https://i.imgur.com/VaXYJ9P.png",
         "hint": "The {{HK416}} is a gas-operated assault rifle chambered for the 5.56×45mm NATO cartridge. It is designed and manufactured by the German company Heckler & Koch.",
         "origin": "Germany",
         "gunType": "Carbine",
         "usage": 2004
     },
     "M4A1": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042865992541421649/M4A1.png",
+        "image": "https://i.imgur.com/vbihDFs.png",
         "hint": "The {{M4A1}} carbine is a fully automatic variant of the basic M4 carbine intended for special operations use. It was introduced in May 1991 and was in service in 1994.",
         "origin": "United States",
         "gunType": "Carbine",
         "usage": 1991
     },
     "M16A3": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042865992855990312/M16A3.png",
+        "image": "https://i.imgur.com/fgMlg5I.png",
         "hint": "The {{M16A3}} is an American assault rifle developed from the M16A2 as a version capable of fully-automatic fire, visually similar expect for the fire selector.",
         "origin": "United States",
         "gunType": "Assault Rifle",
         "usage": 1990
     },
     "MP5": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042866008072921158/MP5.png",
+        "image": "https://i.imgur.com/e77fQ8T.png",
         "hint": "The {{MP5}} is a 9x19mm Parabellum submachine gun, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler & Koch. There are over 100 variants and clones of the {{MP5}}, including some semi-automatic versions.",
         "origin": "Germany",
         "gunType": "Submachine Gun",
         "usage": 1966
     },
     "TEC-9": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042866008844685372/TEC-9.png",
+        "image": "https://i.imgur.com/6RUjKgw.png",
         "hint": "The {{TEC-9}}, TEC-DC9, KG-99 and AB-10 are a line of blowback-operated semi-automatic pistols. They were developed by Intratec, an American subsidiary of the Swedish firearms manufacturer Interdynamic AB. Introduced in 1984, the {{TEC-9}} was made of inexpensive molded polymers and a mixture of stamped and milled steel parts.",
         "origin": "Sweden",
         "gunType": "Semi-Auto Pistol",
         "usage": 1984
     },
     "TYPE-20": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1042866009511567431/TYPE-20.png",
+        "image": "https://i.imgur.com/X6n4mA6.png",
         "hint": "The {{TYPE 20}} 5.56mm is an assault rifle developed for the Japan Ground Self-Defense Force by Howa. The first examples were purchased in 2019, and it is intended to eventually replace the Howa TYPE 89 in general service.",
         "origin": "Japan",
         "gunType": "Assault Rifle",
         "usage": 2015
     },
     "Honey Badger": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050051746996686899/Honey_Badger.png",
+        "image": "https://i.imgur.com/FYlYN5p.png",
         "hint": "The {{Honey Badger}} was originally designed by Kevin Brittingham during his time in AAC as a modern AR15 style alternative to the HK MP5SD. The weapon was designed in conjunction with a new caliber, .300 AAC Blackout.",
         "origin": "United States",
         "gunType": "PDW",
         "usage": null
     },
     "AK-74": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050053551050723379/AK-74.png",
+        "image": "https://i.imgur.com/lymSII2.png",
         "hint": "The {{AK-74}} is an updated 5.45x39mm version of the AK-47 rifle that was adopted by the Soviet Union since 1974, replacing the 7.62x39mm AKM rifle. The {{AK-74}}, and its modernized variant, the AK-74M, are the standard service rifles of the Soviet Union and the Russian Federation.",
         "origin": "Soviet Union",
         "gunType": "Assault Rifle",
         "usage": 1974
     },
     "AK-12": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050054512607506463/AK-12.png",
+        "image": "https://i.imgur.com/c6f1VRV.png",
         "hint": "The {{AK-12}} is the latest entry in the legendary Kalashnikov series of rifles. It was developed to replace the AK-74M and the AK-100 series of rifles that was field tested in 2011.",
         "origin": "Russia",
         "gunType": "Assault Rifle",
         "usage": 2018
     },
     "AS Val": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050055372402069594/AS_Val.png",
+        "image": "https://i.imgur.com/9AvhPtR.png",
         "hint": "The {{AS Val}} and VSS Vintorez are a pair of integrally suppressed weapons developed in the Soviet Union in the 1980s. The two are mechanically identical, but feature different cosmetic parts and have different roles.",
         "origin": "Soviet Union",
         "gunType": "Automatic Rifle",
         "usage": 1987
     },
     "FAMAS": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050079255494660136/FAMAS.png",
+        "image": "https://i.imgur.com/WYKa7Yf.png",
         "hint": "The {{FAMAS}} is a bullpup assault rifle designed and manufactured in France by MAS in 1978, a year after the Austrian Steyr AUG. It is known by French troops as Le Clairon (The Bugle) due to its distinctive shape.",
         "origin": "France",
         "gunType": "Assault Rifle",
         "usage": 1978
     },
     "G36": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050056823740305408/G36.png",
+        "image": "https://i.imgur.com/iBnwC4l.png",
         "hint": "The {{HK G36}} is a 5.56×45mm assault rifle designed in the early 1990s by German weapons manufacturer Heckler & Koch as a replacement for the heavier 7.62×51mm G3 battle rifle.",
         "origin": "Germany",
         "gunType": "Assault Rifle",
         "usage": 1997
     },
     "XM8": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050057933951602728/XM8.png",
+        "image": "https://i.imgur.com/dnJEOZH.png",
         "hint": "The {{HK XM8}} is a modular assault rifle system designed by Heckler & Koch. Originally conceived as the assault rifle portion of the XM29 OICW, the {{XM8}} was designed as a possible replacement for the M4 carbine and M16 rifle series and is heavily based on Heckler & Koch's G36 rifle series.",
         "origin": "Germany",
         "gunType": "Assault Rifle",
         "usage": 2010
     },
     "GROZA": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050058296192663602/GROZA.png",
+        "image": "https://i.imgur.com/B1FwnMB.png",
         "hint": "The {{OTs-14 Groza}} is a Russian selective fire bullpup assault rifle chambered for the 7.62×39 round and the 9×39mm subsonic round. It was developed in the 1990s at the TsKIB SOO in Tula, Russia.",
         "origin": "Russia",
         "gunType": "Assault Rifle",
         "usage": 1994
     },
     "M1903": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050062301287428096/M1903.png",
+        "image": "https://i.imgur.com/Isn0PpI.png",
         "hint": "The {{M1903}} Springfield, officially the United States Rifle, Caliber .30-06, Model {{1903}}, is an American five-round magazine-fed, bolt-action service repeating rifle, used primarily during the first half of the 20th century.",
         "origin": "United States",
         "gunType": "Bolt-action rifle",
         "usage": 1903
     },
     "FAL": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050060612346073088/FAL.png",
+        "image": "https://i.imgur.com/TAqcwGg.png",
         "hint": "The {{FAL}}, is a battle rifle designed in Belgium by Dieudonné Saive and manufactured by FN Herstal (simply known as FN).",
         "origin": "Belgium",
         "gunType": "Battle rifle",
         "usage": 1953
     },
     "HK417": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050061329496539178/HK417.png",
+        "image": "https://i.imgur.com/zWkGVhl.png",
         "hint": "The {{HK417}} is a larger caliber version of the HK416, and chambered for the 7.62×51mm NATO rifle cartridge, it is intended for use where the penetrative power, stopping power, and range of the 5.56×45mm NATO HK416 would otherwise be insufficient.",
         "origin": "Germany",
         "gunType": "Battle rifle",
         "usage": 2006
     },
     "M14": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050061901964525648/M14.png",
+        "image": "https://i.imgur.com/0z0PPBa.png",
         "hint": "The {{M14 rifle}} is an American selective fire battle rifle chambered for the 7.62×51mm NATO (.308 in) cartridge. It became the standard-issue rifle for the U.S. military in 1959, replacing the M1 Garand rifle in service.",
         "origin": "United States",
         "gunType": "Battle rifle",
         "usage": 1959
     },
     "Dragunov SVU": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050063422894637066/Dragunov_SVU.png",
+        "image": "https://i.imgur.com/ZNkNakP.png",
         "hint": "The {{OTs-03 SVU}} is a bullpup designated marksman rifle. The {{SVU}} was developed to meet the needs of the security forces of the Russian Ministry of Internal Affairs, such as OMON. The {{SVU}} was first seen in use in the First Chechen War.",
         "origin": "Russia",
         "gunType": "Marksman rifle",
         "usage": 1994
     },
     "WA2000": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050064115986595840/WA2000.png",
+        "image": "https://i.imgur.com/nA5Dnei.png",
         "hint": "The {{WA 2000}} is a semi-automatic bullpup sniper rifle produced by the Carl Walther GmbH Sportwaffen company from 1982 until 1988. Production of the rifle was limited and it was shortly stopped because it was too expensive to achieve widespread sales and not robust enough for military use as a sniper rifle.",
         "origin": "Germany",
         "gunType": "Semi-Auto sniper rifle",
         "usage": 1970
     },
     "KSG": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050064950388854824/KSG.png",
+        "image": "https://i.imgur.com/klsWlNG.png",
         "hint": "The {{KSG}} is a bullpup 12-gauge pump-action shotgun designed by Kel-Tec. It has two tube magazines which the user of the gun can switch between manually. Each tube holds up to seven 2.75-inch (70 mm) 12-gauge shotshells or six 3-inch (76 mm) shotshells.",
         "origin": "United States",
         "gunType": "Pump-action shotgun",
         "usage": 2011
     },
     "Remington Model 870": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050066635957993542/Remington_Model_870.png",
+        "image": "https://i.imgur.com/DW1ELp2.png",
         "hint": "The {{Remington Model 870}} is a pump-action shotgun manufactured by Remington Arms Company, LLC. It is widely used by the public for shooting sports, hunting and self-defense, as well as by law enforcement and military organizations worldwide.",
         "origin": "United States",
         "gunType": "Pump-action shotgun",
         "usage": 1950
     },
     "Aug HBAR": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050066626197864490/AUG_HBAR.png",
+        "image": "https://i.imgur.com/w11ryxS.png",
         "hint": "The {{Steyr AUG HBAR}} (Heavy Barreled Automatic Rifle) is a longer heavier-barreled variant of the standard AUG for use as a light machine gun or squad automatic weapon. It uses the standard AUG receiver with 1.5× magnification scope.",
         "origin": "Austria",
         "gunType": "Light machine gun",
         "usage": 1960
     },
     "SKS": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050074745594462319/SKS.png",
+        "image": "https://i.imgur.com/L503ZRT.png",
         "hint": "The {{SKS}} is a semi-automatic rifle designed by Soviet small arms designer Sergei Gavrilovich Simonov in 1945.",
         "origin": "Soviet Union",
         "gunType": "Semi-Auto rifle",
         "usage": 1945
     },
     "Thompson": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050075724666634320/Thompson.png",
+        "image": "https://i.imgur.com/BXBe1AQ.png",
         "hint": "The {{Thompson}} submachine gun is a blowback-operated, air-cooled, magazine-fed selective-fire submachine gun, invented by United States Army Brigadier general John T. Thompson in 1918. It was originally designed to break the stalemate of trench warfare of World War I, but was not finished until after the war ended.",
         "origin": "United States",
         "gunType": "Submachine Gun",
         "usage": 1938
     },
     "KRISS Vector": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050076635849818162/KRISS_Vector.png",
+        "image": "https://i.imgur.com/aLijTo7.png",
         "hint": "The {{KRISS Vector}} is a series of weapons based upon the parent submachine gun design developed by the American company KRISS USA, formerly Transformational Defense Industries (TDI). They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.",
         "origin": "United States",
         "gunType": "Submachine Gun",
         "usage": 2006
     },
     "UZI": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050078085946552361/UZI.png",
+        "image": "https://i.imgur.com/nXqCDY1.png",
         "hint": "The {{UZI}} is a family of Israeli open-bolt, blowback-operated submachine guns and machine pistols first designed by Major Uziel {{\"Uzi\"}} Gal in the late 1940s, shortly after the establishment of the State of Israel.",
         "origin": "Israel",
         "gunType": "Submachine Gun",
         "usage": 1954
     },
     "RPK": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050417948239597628/RPK.png",
+        "image": "https://i.imgur.com/u2IiNzi.png",
         "hint": "The {{RPK}}, sometimes retroactively termed the {{RPK}}-47, is a Soviet 7.62×39mm light machine gun that was developed by Mikhail Kalashnikov in the early 1960s, in parallel with the AKM assault rifle.",
         "origin": "Soviet Union",
         "gunType": "Light machine gun",
         "usage": 1961
     },
     "MAC-10": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050419953288880188/MAC-10.png",
+        "image": "https://i.imgur.com/gYzVnId.png",
         "hint": "The {{MAC-10}} ({{Military Armament Corporation}}) is a compact, blowback operated machine pistol/submachine gun that was developed by Gordon B. Ingram in 1964.",
         "origin": "United States",
         "gunType": "Submachine Gun",
         "usage": 1964
     },
     "PP-2000": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050420397843156992/PP-2000.png",
+        "image": "https://i.imgur.com/yZ0iuqC.png",
         "hint": "The {{PP-2000}} is a submachine gun/machine pistol made by the KBP Instrument Design Bureau. It was first publicly displayed at the Interpolytech-2004 exhibition in Moscow even though its patent was filed in 2001 and issued in 2003.",
         "origin": "Russia",
         "gunType": "Submachine Gun",
         "usage": 2006
     },
     "Skorpion 61": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050421399610720317/Skorpion_61.png",
+        "image": "https://i.imgur.com/HgmYhOt.png",
         "hint": "The {{Škorpion vz. 61}} is a Czechoslovak machine pistol developed in 1959 by Miroslav Rybář. Currently the weapon is in use with the armed forces of several countries as a sidearm.",
         "origin": "Czechoslovak Socialist Republic",
         "gunType": "Submachine Gun",
         "usage": 1961
     },
     "Desert Eagle": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050424455073124444/Desert_Eagle.png",
+        "image": "https://i.imgur.com/busLqrO.png",
         "hint": "The {{Desert Eagle}} is a gas-operated, semi-automatic pistol known for chambering the .50 Action Express, the largest centerfire cartridge of any magazine-fed, self-loading pistol.",
         "origin": "Israel",
         "gunType": "Semi-Auto Pistol",
         "usage": 1979
     },
     "Colt Python": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050430700056232006/Colt_Python.png",
+        "image": "https://i.imgur.com/Qcpxn2R.png",
         "hint": "The {{Colt Python}} is a .357 Magnum caliber revolver manufactured by Colt's Manufacturing Company of Hartford, Connecticut. It was first introduced in 1955, the same year as Smith & Wesson's M29 .44 Magnum.",
         "origin": "United States",
         "gunType": "Revolver",
         "usage": 1955
     },
     "Saiga-12": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050430224711557170/Saiga-12.png",
+        "image": "https://i.imgur.com/54hu0pO.png",
         "hint": "The {{Saiga-12}} is a shotgun available in a wide range of configurations, patterned after the Kalashnikov series of rifles and named after the Saiga antelope native to Russia. Like the Kalashnikov rifle variants, it is a rotating bolt, long-stroke gas piston operated firearm that feeds from a box magazine.",
         "origin": "Russia",
         "gunType": "Shotgun",
         "usage": 1990
     },
     "SPAS-12": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050430629470273637/SPAS-12.png",
+        "image": "https://i.imgur.com/FfSZQQu.png",
         "hint": "The {{Franchi SPAS-12}} is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. The {{SPAS-12}} is a dual-mode shotgun, adjustable for semi-automatic or pump-action operation.",
         "origin": "Italy",
         "gunType": "Pump-action shotgun",
         "usage": 1979
     },
     "KS-23": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050431556969304164/KS-23.png",
+        "image": "https://i.imgur.com/fxhRnGE.png",
         "hint": "The {{KS-23}} is a Soviet shotgun, although because it uses a rifled barrel it is officially designated by the Russian military as a carbine. KS stands for Karabin Spetsialniy, \"Special Carbine\".",
         "origin": "Soviet Union",
         "gunType": "Pump-action shotgun",
         "usage": 1970
     },
     "USAS-12": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050432725078769736/USAS-12.png",
+        "image": "https://i.imgur.com/yuEVcwx.png",
         "hint": "The {{USAS-12}} is a gas-operated, selective fire weapon, designed to provide sustained firepower in close-combat scenarios. It accepts detachable 10-round box magazines or 20-round drum magazines.",
         "origin": "South Korea",
         "gunType": "Automatic combat shotgun",
         "usage": 1989
     },
     "AA-12": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050433532943667320/AA-12.png",
+        "image": "https://i.imgur.com/UQXuFP9.png",
         "hint": "The {{AA-12}} is an automatic combat shotgun developed in 1972 by Maxwell Atchisson. The shotgun was based on USAS-12 and fires in fully automatic mode only.",
         "origin": "United States",
         "gunType": "Automatic combat shotgun",
         "usage": 1972
     },
     "M200 Intervention": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050436092488339556/Intervention.png",
+        "image": "https://i.imgur.com/s2Xg1PU.png",
         "hint": "The {{CheyTac Intervention}} also known as the {{CheyTac M200}}, is an American bolt-Bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a 7-round detachable single-stack magazine.",
         "origin": "United States",
         "gunType": "Bolt-action sniper rifle",
         "usage": 2001
     },
     "NTW-20": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050436484202758175/NTW-20.png",
+        "image": "https://i.imgur.com/YxT2qmA.png",
         "hint": "The {{NTW-20}} is a South African anti-materiel rifle, developed by Denel Mechem in the 1990s. It is intended for deployment against targets including parked aircraft, missile sites, radar installations, bunkers, personnel, etc. using a range of specialised projectiles.",
         "origin": "South Africa",
         "gunType": "Anti-material sniper rifle",
         "usage": 1998
     },
     "Mosin Nagant": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050438649075990538/Mosin_Nagant.png",
+        "image": "https://i.imgur.com/cRHvoHF.png",
         "hint": "The {{Mosin–Nagant}} is a five-shot, bolt-action, internal magazine–fed military rifle. Known officially as the 3-line rifle M1891 and informally in Russia and former Soviet Union as {{Mosin}}'s rifle, it is primarily found chambered for its original 7.62×54mmR cartridge.",
         "origin": "Russia",
         "gunType": "Bolt-action sniper rifle",
         "usage": 1891
     },
     "Remington Model 700": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050438684618534963/Remington_Model_700.png",
+        "image": "https://i.imgur.com/WucLNoL.png",
         "hint": "The {{Remington Model 700}} is a series of bolt-action centerfire rifles manufactured by Remington Arms since 1962. The M24 and M40 military sniper rifles, used by the US Army and Marine Corps, respectively, are both based on the {{Model 700}} design.",
         "origin": "United States",
         "gunType": "Bolt-action sniper rifle",
         "usage": 1962
     },
     "Steyr Scout": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050439202166288414/Steyr_Scout.png",
+        "image": "https://i.imgur.com/MHy4MHo.png",
         "hint": "The {{Steyr Scout}} is an Austrian bolt-action rifle manufactured by Steyr Mannlicher, and chambered primarily for 7.62 NATO. It is intended to fill the role of a versatile, lightweight all-around rifle as specified in Jeff Cooper's scout rifle concept.",
         "origin": "Austria",
         "gunType": "Bolt-action sniper rifle",
         "usage": 1999
     },
     "ASMI": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050485200234237972/ASMI.png",
+        "image": "https://i.imgur.com/WPKr5gI.png",
         "hint": "The {{ASMI}} was designed as a replacement for the 1A Carbine, India's domestically produced copy of the Sterling submachine gun, which has been in service since the 1960s. The {{ASMI}}, which means \"pride, self respect, and hard work\", was first showcased in January 2021, and developed over the course of four months by Lieutenant Colonel Prasad Bansod.",
         "origin": "India",
         "gunType": "Submachine Gun",
         "usage": 2020
     },
     "Steyr TMP": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050796918357381330/Steyr_TMP.png",
+        "image": "https://i.imgur.com/wjLps51.png",
         "hint": "The {{Steyr TMP}} is a 9×19mm Parabellum caliber machine pistol manufactured by Steyr Mannlicher of Austria. The magazines come in 15-, 20-, or 30-round detachable box types. A suppressor can also be fitted.",
         "origin": "Austria",
         "gunType": "Submachine Gun",
         "usage": 1989
     },
     "MP7": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050797032148840468/MP7.png",
+        "image": "https://i.imgur.com/OrPqrEO.png",
         "hint": "The HK {{MP7}} is a personal defense weapon chambered for the HK 4.6×30mm armor-piercing cartridge designed by German defence manufacturer Heckler & Koch.",
         "origin": "Germany",
         "gunType": "Submachine Gun",
         "usage": 2001
     },
     "MP40": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050798088467517450/MP40.png",
+        "image": "https://i.imgur.com/U5OrI5A.png",
         "hint": "The {{MP40}} is a submachine gun chambered for the 9×19mm Parabellum cartridge. It was developed in Nazi Germany and used extensively by the Axis powers during World War II.",
         "origin": "Nazi Germany",
         "gunType": "Submachine Gun",
         "usage": 1939
     },
     "PP-19 Bizon": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050801810958463076/PP-19_Bizon.png",
+        "image": "https://i.imgur.com/bHycjWn.png",
         "hint": "The {{PP-19 Bizon}} is a 9×18mm Makarov submachine gun developed in 1993 by the Russian company Izhmash, designed by a team of engineers headed by Victor Kalashnikov (son of engineer Mikhail Kalashnikov, creator of the AK-47). Alexei Dragunov, youngest son of Yevgeny Dragunov (the creator of the SVD sniper rifle), was also a member of the design team.",
         "origin": "Russia",
         "gunType": "Submachine Gun",
         "usage": 1996
     },
     "C7A2": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050808191191105606/C7A2.png",
+        "image": "https://i.imgur.com/Rob8CY5.png",
         "hint": "The {{C7A2}} is apart of the Canadian family of military rifles, has a four-point telescoping stock unit similar to that of the C8 carbine and is issued with green colour furniture as standard.",
         "origin": "Canada",
         "gunType": "Assault Rifle",
@@ -378,14 +378,14 @@
         "usage": 2000
     },
     "L2A3": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050810196580106360/L2A3.png",
+        "image": "https://i.imgur.com/NVeEQQZ.png",
         "hint": "The Sterling Mk.4 submachine gun is a British submachine gun which was in service with the British Army from 1953 until 1994 as the {{L2A3}} when it was phased out with the introduction of the L85A1. Its earliest combat record however was field testing near the end of WWII with early prototypes.",
         "origin": "United Kingdom",
         "gunType": "Submachine Gun",
         "usage": 1944
     },
     "SL8": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050811435665592340/SL8.png",
+        "image": "https://i.imgur.com/FLctqdR.png",
         "hint": "The {{HK SL8}} is a semi-automatic rifle manufactured by Heckler & Koch. It is the civilian version of the Heckler & Koch G36.",
         "origin": "Germany",
         "gunType": "Semi-Auto rifle",
@@ -399,42 +399,42 @@
         "usage": 1994
     },
     "HECATE II": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1050814172818051232/HECATE_II.png",
+        "image": "https://i.imgur.com/yyoWzR1.png",
         "hint": "The {{Hécate II}} is the standard heavy sniper rifle and anti-materiel rifle of the French Army, sometimes known as the FR-12.7, chambered for the .50 BMG.",
         "origin": "France",
         "gunType": "Anti-material sniper rifle",
         "usage": 1993
     },
     "Makarov PM": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1051034212070858802/Makarov.png",
+        "image": "https://i.imgur.com/sWJPaSQ.png",
         "hint": "The {{Makarov pistol}} or PM is a Soviet semi-automatic pistol. Under the project leadership of Nikolay Fyodorovich Makarov, it became the Soviet Union's standard military and Militsiya side arm in 1951.",
         "origin": "Soviet Union",
         "gunType": "Semi-Auto Pistol",
         "usage": 1951
     },
     "PPSh-41": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1051035227205677137/PPSh-41.png",
+        "image": "image.png",
         "hint": "The {{PPSh-41}} is a Soviet submachine gun designed by Georgy Shpagin as a cheaper and simplified alternative to the PPD-40. A common Russian nickname for the weapon is \"papasha\", meaning \"daddy\", and it was sometimes called the \"burp gun\" because of its high fire-rate.",
         "origin": "Soviet Union",
         "gunType": "Submachine Gun",
         "usage": 1941
     },
     "Type 63": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1051035857051721768/Type_63.png",
+        "image": "https://i.imgur.com/TEeAnKZ.png",
         "hint": "The {{Type 63}} is a Chinese-designed assault rifle with a resemblance to the SKS. The weapon features a fully-automatic rotating-bolt system modified from the Type 56 assault rifle instead of the tilting bolt system of the SKS.",
         "origin": "China",
         "gunType": "Assault Rifle",
         "usage": 1963
     },
     "AKM": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1051047765318324284/AKM.png",
+        "image": "https://i.imgur.com/ZXDc5tB.png",
         "hint": "The {{AKM}} is an assault rifle designed by Soviet small arms designer Mikhail Kalashnikov in 1959. It is the most ubiquitous rifle of the Kalashnikov rifles. It was developed as a replacement to the AK-47 introduced a decade prior.",
         "origin": "Soviet Union",
         "gunType": "Assault Rifle",
         "usage": 1959
     },
     "P2000": {
-        "image": "https://cdn.discordapp.com/attachments/945308137932599348/1051049107608842240/P2000.png",
+        "image": "https://i.imgur.com/TjxbULG.png",
         "hint": "The {{Heckler & Koch P2000}} is a German semi-automatic pistol introduced late in 2001 and intended primarily for law enforcement, paramilitary, and commercial markets. It is based on the USP Compact pistol.",
         "origin": "Germany",
         "gunType":"Semi-Auto Pistol",
