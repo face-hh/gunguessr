@@ -14,6 +14,8 @@ const gunType = document.getElementById('gunType');
 const progressText = document.getElementById('progressText');
 const progressOfLoading = document.getElementById('progressOfLoading');
 const loadingScreen = document.getElementById('loadingScreen');
+const buttonToClose = document.getElementById('buttonToClose');
+const hideWhenDone = document.getElementById('hideWhenDone');
 const center = document.getElementById('centerM');
 
 const winmsg = document.getElementById('winmsg');
@@ -29,6 +31,7 @@ let date;
 let streak = 0;
 let clickedAll;
 let filterArray;
+let stopTheLoading = false;
 
 function hide(str, term) {
 	const matched = str.match(/[^{}]+(?=})/g);
@@ -43,9 +46,12 @@ function generateData(rGun) {
 	settings.gunType ? gunType.innerHTML = rGun.gunType : gunType.innerHTML = 'Hidden;';
 }
 
+function skipLoading() {
+	stopTheLoading = true;
+}
 (async () => {
 	window.onkeyup = keyup;
-
+	buttonToClose.style.display = 'none';
 	guns = await (await fetch('data.json')).json();
 	baseGuns = guns;
 	filterArray = await (await fetch('filter.json')).json();
@@ -56,8 +62,10 @@ function generateData(rGun) {
 			await $.ajax({ 'url': gunsByValues[i].image });
 			progressOfLoading.innerHTML = `<span style="color: #efdaf2">${(i + 1)}</span>/<span style="color: #e486f2">${gunsByValues.length}`;
 
-			if (i + 1 === gunsByValues.length) {
+			if (i + 1 === gunsByValues.length || stopTheLoading === true) {
 				loadingScreen.style.display = 'none';
+				buttonToClose.style.display = '';
+				hideWhenDone.style.display = 'none';
 			}
 		}
 	}

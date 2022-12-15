@@ -8,28 +8,75 @@
 #loadingScreen {
     width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: 999999;
+    position: absolute;
+    top: 0;
+    left: 0;
     background: linear-gradient(92deg, rgb(248 248 248) 0%, rgb(0 0 0) 0%, rgb(31 27 41) 100%);
 }
+.vertical-center {
+    z-index: 9;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    right: 850px;
+    transform: translateY(-50%);
+}
 
+#skipButton {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #efdaf2;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+#skipButton:hover {
+    background-color: #e486f2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+#skipButton:hover {
+    transform: translateY(-1px);
+}
 #loadingImage {
+    z-index: 9;
     position: absolute;
     top: calc(50vh - 210px);
     left: calc(50vw - 75px);
 }
 
 #progressOfLoading {
-    position: absolute;
-    top: 400px;
-    left: 900px;
+    z-index: 9;
+    position: relative;
+    top: 330px;
+    left: -25px;
 }
-
 #textOfLoading {
+    z-index: 9;
     font-family: 'Rubik', sans-serif;
-    position: absolute;
-    top: 340px;
-    left: 718px;
+    position: relative;
+    top: 315px;
 }
 
 #centerM {
@@ -380,7 +427,12 @@ label {
         transform: scale(0);
     }
 }
-
+@media screen and (max-width: 375px) {
+    .vertical-center {
+        right: 58px !important;
+        top: 470px !important;
+    }
+}
 @media screen and (max-width: 600px) {
     .text {
         border: 1px solid white;
@@ -458,63 +510,60 @@ label {
     .multiselect-dropdown {
         width: 71px !important;
     }
-
-    #loadingScreen {
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        z-index: 999999;
-        background: linear-gradient(92deg, rgb(248 248 248) 0%, rgb(0 0 0) 0%, rgb(31 27 41) 100%);
-    }
-
     #loadingImage {
+        z-index: 9;
         position: absolute;
-        top: calc(50vh - 210px);
-        left: calc(50vw - 75px);
+        top: calc(50vh - 203px);
+        left: calc(50vw - 50px);
     }
-
     #progressOfLoading {
-        position: absolute;
-        top: 328px;
-        left: 136px
+        z-index: 9;
+        position: relative;
+        top: 279px;
+        left: -2px;
+    }
+    #textOfLoading {
+        z-index: 9;
+        font-family: 'Rubik', sans-serif;
+        position: relative;
+        top: 274px;
+        font-size: 22px;
     }
 
-    #textOfLoading {
-        font-family: 'Rubik', sans-serif;
-        position: absolute;
-        top: 293px;
-        left: 42px;
-        font-size: 20px;
+    .vertical-center {
+        right: 69px; /** this was not meant to be funni, it just works. - Face :) */
     }
 }
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 
     #settingHint {
         top: -21px;
         left: 128px;
         position: relative;
     }
-
     #loadingImage {
+        z-index: 9;
         position: absolute;
-        top: calc(50vh - 210px);
-        left: calc(50vw - 75px);
+        top: calc(39vh - 220px);
+        left: calc(50vw - 56px);
     }
-
     #progressOfLoading {
-        position: absolute;
-        top: 525px;
-        left: 347px;
+        z-index: 9;
+        position: relative;
+        top: 320px;
+        left: -2px;
+    }
+    #textOfLoading {
+        z-index: 9;
+        font-family: 'Rubik', sans-serif;
+        position: relative;
+        top: 301px;
+        left: 20px;
     }
 
-    #textOfLoading {
-        font-family: 'Rubik', sans-serif;
-        position: absolute;
-        top: 469px;
-        left: 165px;
+    .vertical-center {
+        top: 44%;
+        right: 285px;
     }
 }

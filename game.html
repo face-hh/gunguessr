@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="no-referrer">
     <title>Gunguessr</title>
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
@@ -12,10 +13,17 @@
 </head>
 
 <body>
-    <div id="loadingScreen">
+
+    <div id="hideWhenDone">
         <img id="loadingImage" src="https://cdn.discordapp.com/emojis/888891964286709760.gif?size=96">
         <h1 id="textOfLoading">We're loading the assets, sir.</h1>
         <h1 id="progressOfLoading">0</h1>
+        <div class="vertical-center">
+            <button onclick="skipLoading()" id="skipButton">Go away, I got NASA internet.</button>
+        </div>
+    </div>
+
+    <div id="loadingScreen"></div>
     </div>
     <img src="logo.png" alt="Logo" class="center">
     <div style="padding: 20px;"></div>
@@ -52,7 +60,7 @@
 
     <div class="centerBtn">
         <div class="centerBtn" style="text-align: center;">
-            <button onclick="growDiv()" class="button-5">Settings</button>
+            <button onclick="growDiv()" id="buttonToClose" class="button-5">Settings</button>
         </div>
         <div id='grow'>
             <div class='measuringWrapper'>
@@ -113,14 +121,14 @@
         let shown = true;
         let doc = document.getElementById('grow')
         function growDiv() {
-            if(shown) {
+            if (shown) {
                 doc.style.animation = 'createBox 1s'
                 doc.style.display = 'block'
                 shown = false;
                 $('html,body').animate({ scrollTop: document.body.scrollHeight }, "slow");
             } else {
                 doc.style.animation = 'destroyBox 1s'
-                setTimeout(() => { doc.style.display = 'none'}, 900)
+                setTimeout(() => { doc.style.display = 'none' }, 900)
                 shown = true
             }
         }
