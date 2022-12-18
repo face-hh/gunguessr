@@ -18,12 +18,10 @@
     margin: 0;
     position: absolute;
     top: 55%;
-    right: 850px;
-    transform: translateY(-50%);
+    left: 50%;
 }
 
 #skipButton {
-    align-items: center;
     background-clip: padding-box;
     background-color: #efdaf2;
     border: 1px solid transparent;
@@ -49,6 +47,7 @@
     touch-action: manipulation;
     vertical-align: baseline;
     width: auto;
+    left: -50%;
 }
 
 #skipButton:hover {
