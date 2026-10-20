@@ -12,8 +12,6 @@
 
     <meta property="og:title" content="Gunguessr"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://gunguessr.afwgerj54.repl.co/" />
-    <meta property="og:image" content="https://gunguessr.afwgerj54.repl.co/logo.png" />
     <meta property="og:description" content="Interactive gun learning game, packed with over 60 guns, followed by historic information to keep the flow on going. Play anytime and catch a streak and score." />
     <meta name="theme-color" content="#FF3366">
 
@@ -21,7 +19,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="referrer" content="no-referrer">
     <title>Gunguessr</title>
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
 </head>
@@ -29,7 +27,7 @@
 <body>
 
     <div id="hideWhenDone">
-        <img id="loadingImage" src="https://cdn.discordapp.com/emojis/888891964286709760.gif?size=96">
+        <img id="loadingImage" src="assets/img/loading.gif">
         <h1 id="textOfLoading">We're loading the assets, sir.</h1>
         <h1 id="progressOfLoading">0</h1>
         <div class="vertical-center">
@@ -120,8 +118,7 @@
     </div>
 
     <div style="display: flex; justify-content: center; padding: 20px">
-        <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/link_1f517.png"
-            style="width:1.5%">
+        <span style="font-size: 20px; padding-right: 8px">🔗</span>
         <span>
             <a style="font-family:'Segoe UI'; font-size: 20px; color:aqua; text-decoration:none"
                 href="https://github.com/face-hh/gunguessr">GitHub project
@@ -133,9 +130,9 @@
     <!-- <footer>
         <p><a href="#">How does it works?</a> &bull; <a href="#">Source code (GitHub)</a></p>
     </footer> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="https://unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
+    <script src="./assets/lib/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/lib/string-similarity.min.js"></script>
+    <script type="text/javascript" src="./assets/lib/fetch.min.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/dropdown.js"></script>
     <script src="js/filter.js"></script>

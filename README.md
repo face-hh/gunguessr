@@ -1,9 +1,9 @@
 <div align="center">
-<img src="https://cdn.discordapp.com/attachments/945308137932599348/1051075772477091840/logo.png" style="width:50%;">
+<img src="logo.png" style="width:50%;">
 
 
 An interactive gun guessing game
-<a href='https://gunguessr.afwgerj54.repl.co/'>🔗 Link</a>
+
 </div>
 <br><br>
 
